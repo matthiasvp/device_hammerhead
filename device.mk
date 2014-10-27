@@ -115,8 +115,10 @@ DEVICE_PACKAGE_OVERLAYS := \
 
 # Live Wallpapers
 PRODUCT_PACKAGES += \
-    LiveWallpapersPicker \
     librs_jni
+
+# Removed packages
+# LiveWallpapersPicker
 
 PRODUCT_PACKAGES += \
     gralloc.msm8974 \
